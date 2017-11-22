@@ -1,5 +1,8 @@
 package com.smallcode.servlet;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -23,6 +26,11 @@ public class OneServlet extends HttpServlet {
 
         PrintWriter out = resp.getWriter();
         out.println("set servletcontext");
+
+
+        ApplicationContext ac = new FileSystemXmlApplicationContext("applicationContext.xml");
+        ac.getBean("beanId");
+
         //super.doGet(req, resp);
     }
 
