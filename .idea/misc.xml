@@ -111,6 +111,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springstudy/pom.xml" />
+        <option value="$PROJECT_DIR$/javabasics/pom.xml" />
+        <option value="$PROJECT_DIR$/javaweb/pom.xml" />
       </list>
     </option>
   </component>
