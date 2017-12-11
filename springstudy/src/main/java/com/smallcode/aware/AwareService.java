@@ -15,10 +15,12 @@ public class AwareService implements BeanNameAware, ResourceLoaderAware {
 
     private String beanName;
 
+    @Override
     public void setBeanName(String name) {
         beanName = name;
     }
 
+    @Override
     public void setResourceLoader(ResourceLoader resourceLoader) {
 
     }
