@@ -11,9 +11,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
-/**
- * Created by Lenny on 2017/12/11.
- */
+
 public class WebInitializer implements WebApplicationInitializer {
 
     @Override
@@ -30,7 +28,8 @@ public class WebInitializer implements WebApplicationInitializer {
         dispatcherServlet.register(MyMvcConfig.class);
 
         // Register and map the dispatcher servlet
-        ServletRegistration.Dynamic dispatcher = container.addServlet("dispatcher", new DispatcherServlet(dispatcherServlet));
+        ServletRegistration.Dynamic dispatcher = container.addServlet("dispatcher",
+                new DispatcherServlet(dispatcherServlet));
         dispatcher.setLoadOnStartup(1); //表示容器在应用启动时就加载并初始化这个servlet；
         dispatcher.addMapping("/");
     }
