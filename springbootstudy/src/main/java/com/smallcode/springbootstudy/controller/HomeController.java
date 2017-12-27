@@ -1,5 +1,7 @@
 package com.smallcode.springbootstudy.controller;
 
+import com.smallcode.doctorstarter.service.RegisterService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HomeController {
+
+    @Autowired
+    private RegisterService registerService;
 
     @GetMapping("/index")
     public String index() {
@@ -18,4 +23,11 @@ public class HomeController {
     public String index1() {
         return "hello world";
     }
+
+    @GetMapping("/addRegister")
+    public String addRegister() {
+        registerService.add();
+        return "ok";
+    }
+
 }
