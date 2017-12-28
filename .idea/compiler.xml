@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-basics" />
-        <module name="springstudy" />
+        <module name="doctorstarter" />
+        <module name="springbootstudy" />
+        <module name="springmvcstudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DeepJavaWeb" target="1.5" />
-      <module name="java-basics" target="1.5" />
-      <module name="javabasics" target="1.5" />
-      <module name="springstudy" target="1.5" />
+      <module name="doctorstarter" target="1.8" />
+      <module name="springbootstudy" target="1.8" />
+      <module name="springmvcstudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

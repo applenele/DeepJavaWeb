@@ -110,10 +110,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvcstudy/pom.xml" />
         <option value="$PROJECT_DIR$/springstudy/pom.xml" />
-        <option value="$PROJECT_DIR$/javabasics/pom.xml" />
-        <option value="$PROJECT_DIR$/javaweb/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootstudy/pom.xml" />
+        <option value="$PROJECT_DIR$/doctorstarter/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springstudy/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

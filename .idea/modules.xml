@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaweb/DeepJavaWeb.iml" filepath="$PROJECT_DIR$/javaweb/DeepJavaWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javabasics/java-basics.iml" filepath="$PROJECT_DIR$/javabasics/java-basics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springstudy/springstudy.iml" filepath="$PROJECT_DIR$/springstudy/springstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doctorstarter/doctorstarter.iml" filepath="$PROJECT_DIR$/doctorstarter/doctorstarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootstudy/springbootstudy.iml" filepath="$PROJECT_DIR$/springbootstudy/springbootstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" filepath="$PROJECT_DIR$/springmvcstudy/springmvcstudy.iml" />
     </modules>
   </component>
 </project>
