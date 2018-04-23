@@ -6,14 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="doctorstarter" />
-        <module name="springbootstudy" />
+        <module name="java-basics" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="doctorstarter" target="1.8" />
-      <module name="springbootstudy" target="1.8" />
-      <module name="springmvcstudy" target="1.8" />
+      <module name="java-basics" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
