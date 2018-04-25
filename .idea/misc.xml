@@ -118,6 +118,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/mybatisdemo/pom.xml" />
         <option value="$PROJECT_DIR$/springstudy/pom.xml" />
       </set>
     </option>

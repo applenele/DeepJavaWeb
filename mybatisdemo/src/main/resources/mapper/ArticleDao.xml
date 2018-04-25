@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smallcode.mybatisdemo.dao.ArticleDao">
+
+
+	<resultMap id="ArticleResultMap" type="com.smallcode.mybatisdemo.domain.Article" >
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="title" property="title" jdbcType="VARCHAR" />
+	</resultMap>
+
+    <insert id="addArticle" parameterType="com.smallcode.mybatisdemo.domain.Article">
+		INSERT INTO b_article (title)
+		VALUES (#{title})
+	</insert>
+
+	<select id="getArticleList" resultMap="ArticleResultMap" >
+		select
+		id,title
+		from b_article
+	</select>
+
+
+
+
+</mapper>
